@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ISU Map Admin</string>
+
+    <string-array name="colleges">
+        <item>CCSICT</item>
+        <item>CBM</item>
+        <item>COE</item>
+        <item>CCJE</item>
+        <item>IAT</item>
+        <item>PS</item>
+        <item>SAS</item>
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "124370909381",
+    "firebase_url": "https://bloom-7ea46.firebaseio.com",
+    "project_id": "bloom-7ea46",
+    "storage_bucket": "bloom-7ea46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124370909381:android:3da046093f01037c7b98ac",
+        "android_client_info": {
+          "package_name": "com.isucollegemap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124370909381-1o1b6nr9mvidvemtst08eapt82d1cosq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isucollegemap",
+            "certificate_hash": "1e70ba3e67dd7aa768e4faeaa47860ae8824933c"
+          }
+        },
+        {
+          "client_id": "124370909381-26j21jgjv2k2ian77g4aea1qmchf3fti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ8gS7AKTPCNLoTAjH9mxklR0ZQX-K1xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124370909381-26j21jgjv2k2ian77g4aea1qmchf3fti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

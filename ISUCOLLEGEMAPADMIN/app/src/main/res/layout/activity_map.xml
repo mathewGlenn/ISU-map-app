@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Map">
+
+    <com.otaliastudios.zoom.ZoomLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical|horizontal"
+        app:alignment="center"
+        app:animationDuration="280"
+        app:flingEnabled="true"
+        app:hasClickableChildren="true"
+        app:horizontalPanEnabled="true"
+        app:maxZoom="2.5"
+        app:maxZoomType="zoom"
+        app:minZoom="0.8"
+        app:minZoomType="zoom"
+        app:oneFingerScrollEnabled="true"
+        app:overPinchable="true"
+        app:overScrollHorizontal="true"
+        app:overScrollVertical="true"
+        app:scrollEnabled="true"
+        app:threeFingersScrollEnabled="true"
+        app:transformation="centerInside"
+        app:transformationGravity="auto"
+        app:twoFingersScrollEnabled="true"
+        app:verticalPanEnabled="true"
+        app:zoomEnabled="true">
+
+        <!-- Content here. -->
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="500dp"
+            android:layout_height="1000dp">
+
+            <ImageView
+                android:id="@+id/map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_map_isu_labaled"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Views -->
+
+            <View
+                android:id="@+id/viewIAT"
+                android:layout_width="30dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginTop="140dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewAutoMobileRepairBldg"
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="224dp"
+                android:layout_marginTop="280dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewAthleticGround1part"
+                android:layout_width="70dp"
+                android:layout_height="99dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="484dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewAthleticGround2part"
+                android:layout_width="76dp"
+                android:layout_height="102dp"
+                android:layout_marginStart="176dp"
+                android:layout_marginTop="584dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewFoodCourt"
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="292dp"
+                android:layout_marginTop="512dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewCoESecondary"
+                android:layout_width="40dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="272dp"
+                android:layout_marginTop="620dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewCoeElementary"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="244dp"
+                android:layout_marginTop="780dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewCcsictBldg"
+                android:layout_width="30dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="152dp"
+                android:layout_marginTop="432dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewRamonMagsaysayBldg"
+                android:layout_width="30dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="520dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewSAS"
+                android:layout_width="30dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="108dp"
+                android:layout_marginTop="596dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewPS"
+                android:layout_width="25dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="392dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/view3StoreyLibrary"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginTop="664dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewCBM"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="264dp"
+                android:layout_marginTop="704dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewCbmBldg"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="224dp"
+                android:layout_marginTop="860dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewGuardHouse"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="132dp"
+                android:layout_marginTop="892dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewCharMBldg"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="893dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewDipsCenter"
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="865dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewAdminBldg"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="124dp"
+                android:layout_marginTop="780dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewHostel"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="452dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewNstpBldg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="400dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+ <!--__________ SAC building____________-->
+            <View
+                android:visibility="gone"
+                android:id="@+id/viewSacBldg1part"
+                android:layout_width="18dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="356dp"
+                android:layout_marginTop="272dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:visibility="gone"
+                android:id="@+id/viewSacBldg2part"
+                android:layout_width="18dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="344dp"
+                android:layout_marginTop="332dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewCrimLaboratory"
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="396dp"
+                android:layout_marginTop="220dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewCcjeClassrooms"
+                android:layout_width="20dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="380dp"
+                android:layout_marginTop="272dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewGymnasium"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="224dp"
+                android:layout_marginTop="392dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewClinic"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="168dp"
+                android:layout_marginTop="740dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewOldStage"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="159dp"
+                android:layout_marginTop="705dp"
+                android:background="@color/mapview_bg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.otaliastudios.zoom.ZoomLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

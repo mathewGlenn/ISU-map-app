@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.isucollegemapadmin">
+
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+        <intent>
+            <action android:name="com.android.camera.action.CROP" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.PICK" />
+
+            <data android:mimeType="vnd.android.cursor.dir/image" />
+        </intent>
+    </queries>
+
+    <application
+        android:hardwareAccelerated="true"
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo_isu_map_admin"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo_isu_map_admin"
+        android:theme="@style/appTheme">
+        <activity
+            android:name=".EditBuildingInfo"
+            android:exported="false" />
+        <activity
+            android:name=".AddFaculty"
+            android:exported="false" />
+        <activity
+
+            android:name=".FacultyProfile"
+            android:label="Faculty Profile" />
+        <activity
+            android:name=".ListFaculty"
+            android:exported="false" />
+        <activity
+            android:name=".Colleges"
+            android:exported="false"
+            android:label="Colleges" />
+        <activity
+            android:name=".Map"
+            android:exported="false"
+            android:label="Map" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.isumap.crop.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/fileprovider" />
+        </provider>
+    </application>
+
+</manifest>

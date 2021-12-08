@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rm_bldg">
+        Ramon Magsaysay Information Communication and Technology Building
+    </string>
+    <string name="ccsict">
+        College of Computing Studies, Information and Communication Technology
+    </string>
+
+    <string name="iat">
+        Institute of Agricultural Technology
+    </string>
+    <string name="cbm">
+        College of Business and Management
+    </string>
+    <string name="cbm_bldg">
+        CBM Building
+    </string>
+
+    <string name="coe_elementary">
+        College of Education (Elementary)
+    </string>
+    <string name="coe_secondary">
+        College of Education (Secondary)
+    </string>
+    <string name="coe">
+        College of Education
+    </string>
+
+    <string name="sas">
+        School of Arts and Sciences
+    </string>
+
+    <string name="ps">
+        Polytechnic School
+    </string>
+
+
+    <string name="crimlab">
+        Criminology lab
+    </string>
+
+    <string name="ccje">
+        College of Criminal Justice Education
+    </string>
+    <string name="ccje_classrooms">
+        CCJE Classrooms
+    </string>
+    <string name="auto_repair_bldg">
+        Automotive repair building
+    </string>
+
+</resources>
